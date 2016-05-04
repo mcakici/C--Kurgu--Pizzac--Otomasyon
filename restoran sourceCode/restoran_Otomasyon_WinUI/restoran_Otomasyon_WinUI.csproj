@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5582F0E0-DBEB-4D5A-9AD3-0D844E43DC70}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>restoran_Otomasyon_WinUI</RootNamespace>
+    <AssemblyName>restoran_Otomasyon_WinUI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>RestaurantBlue2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bayiurunForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bayiurunForm.Designer.cs">
+      <DependentUpon>bayiurunForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bekleyensiparisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bekleyensiparisForm.Designer.cs">
+      <DependentUpon>bekleyensiparisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginForm.Designer.cs">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="accounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="accounts.Designer.cs">
+      <DependentUpon>accounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="siparisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="siparisForm.Designer.cs">
+      <DependentUpon>siparisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yeniurun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yeniurun.Designer.cs">
+      <DependentUpon>yeniurun.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bayiurunForm.resx">
+      <DependentUpon>bayiurunForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bekleyensiparisForm.resx">
+      <DependentUpon>bekleyensiparisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginForm.resx">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="accounts.resx">
+      <DependentUpon>accounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="siparisForm.resx">
+      <DependentUpon>siparisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yeniurun.resx">
+      <DependentUpon>yeniurun.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\restoran_Otomasyon_Commander\restoran_Otomasyon_Commander.csproj">
+      <Project>{CFE44463-2A6E-48AB-BF2B-4227D3B6189F}</Project>
+      <Name>restoran_Otomasyon_Commander</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\restoran_Otomasyon_Soldier\restoran_Otomasyon_Soldier.csproj">
+      <Project>{56B551E3-16FC-4B23-AEE8-57ECAA3DFA40}</Project>
+      <Name>restoran_Otomasyon_Soldier</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RestaurantBlue2.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

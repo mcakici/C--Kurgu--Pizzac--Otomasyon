@@ -1,0 +1,22 @@
+<Bayi>
+  <Siparis Id="9fcbeaa6-c0ae-4098-beb1-2a0050345a56">
+    <Name>Küçük Boy Pizza Diyarı</Name>
+    <Bayi>3</Bayi>
+    <Boyut>Büyük</Boyut>
+    <Adet>3</Adet>
+    <HamurTipi>Kaşarlı Susamlı Hamur</HamurTipi>
+    <Icecek>Fanta 330ml</Icecek>
+    <Zaman>24.12.2012 07:03:57</Zaman>
+    <Tutar>12,90</Tutar>
+  </Siparis>
+  <Siparis Id="21e2ad28-b25d-41fd-aaac-7114fe9e1e80">
+    <Name>Hepsinden Pizza</Name>
+    <Bayi>3</Bayi>
+    <Boyut>Küçük</Boyut>
+    <Adet>1</Adet>
+    <HamurTipi>İnce Hamur</HamurTipi>
+    <Icecek>Coca-Cola 330ml</Icecek>
+    <Zaman>24.12.2012 11:27:33</Zaman>
+    <Tutar>17,80</Tutar>
+  </Siparis>
+</Bayi>

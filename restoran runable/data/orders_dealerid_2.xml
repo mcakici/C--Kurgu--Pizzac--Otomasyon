@@ -1,0 +1,22 @@
+<Bayi>
+  <Siparis Id="b805e539-3376-40fc-8e7e-5177de20dd79">
+    <Name>Karışık Pizza</Name>
+    <Bayi>2</Bayi>
+    <Boyut>Küçük</Boyut>
+    <Adet>2</Adet>
+    <HamurTipi>Normal Hamur</HamurTipi>
+    <Icecek>Sprite 330ml</Icecek>
+    <Zaman>24.12.2012 11:19:50</Zaman>
+    <Tutar>29,80</Tutar>
+  </Siparis>
+  <Siparis Id="67bf71f5-2cbf-4abd-b42a-990e3df5dac4">
+    <Name>Turkish Mix</Name>
+    <Bayi>2</Bayi>
+    <Boyut>Orta</Boyut>
+    <Adet>5</Adet>
+    <HamurTipi>Normal Hamur</HamurTipi>
+    <Icecek>Beypazarı Soda</Icecek>
+    <Zaman>24.12.2012 11:20:03</Zaman>
+    <Tutar>79,50</Tutar>
+  </Siparis>
+</Bayi>
